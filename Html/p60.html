@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background:linear-gradient(90deg, #beaaaa9a, #9891916c), url("https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D") no-repeat ;
+            background-size:cover;  background-attachment:scroll;   
+        }
+        .container{
+            display: flex;
+            gap: 40px;
+            padding: 10px;
+            font-size: 10px;
+        }
+        .class{
+            display: flex;
+            gap: 40px;
+            margin-top: 0%;
+            position: absolute !important;
+            right: 20px !important;
+            top: 0;
+            padding: 10px;
+            color: rgb(7, 7, 7);
+        }
+        
+        .hero{
+            padding: 20px;
+        }
+        .card{
+            float: right;
+        }
+        .card  ul li {
+            display: inline-block;
+            /* padding: 30px; */
+            padding: 10px 30px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .card ul li:hover{
+            color: hsl(60, 90%, 53%);
+           
+        }
+        h1{
+            font-size: 130px;
+          margin-top: 80px;
+          color: rgb(5, 5, 5);
+          margin-left: 80px;
+              
+        }
+        p{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 40px;
+            color: aliceblue;
+          margin-left: 80px;
+        }
+        button{
+            padding: 20px;
+            margin: 30px;
+            background-color: #f8d808;
+            width: 180px;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-left:  100px ;
+        }
+        button:hover{
+           background-color: #23cb3f87; 
+           transform:  translateX(10px) translateY(-10px);
+           border: 3px solid white;
+           transition: 1s;
+           
+       }
+        h4{
+         margin-left: 150px;
+         font-size: 25px;
+         margin-top: 15px;
+         padding: 20px;
+         }
+       .quote{
+            display: flex;
+        }
+        .form input{
+           font-size: 15px;
+           padding: 20px;
+           margin: 15px;
+           background-color: #cfc3c359;
+        }
+      .form{
+            border: 30px solid white;
+            background-color: #fff;
+            width: 400px;
+            padding: 20px;
+        }
+        .form h5:hover{
+            background-color: #23cb3f87; 
+           transform:  translateX(10px) translateY(-10px);
+           border: 3px solid white;
+           transition: 1s;
+        }
+        .card{
+            display: flex;
+            gap: 250px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <p>invest@liquid.com</p> <hr>
+    <p>14th Street, Soho</p> <hr>
+    </div>
+    <div class="class">
+    <p>Consultation</p> <hr>
+    <p>Contact us</p>  <hr>
+    <input type="text" placeholder="  Us English" list="  Us English">
+    <datalist id="  Us English">
+     <option value="Privacy policy"></option>
+     <option value="terms of use"></option>
+     <option value="Help center"></option>
+</datalist> 
+   <i class="fa fa-search"></i>
+</div>
+<hr style="height: 2px; background-color: #161414;">
+<div class="hero">
+<header>
+    <img src="https://hubhtml.liquid-themes.com/assets/images/demo/company/logo.svg" alt="logo">
+<div class="card">
+<ul>
+    <li>Home <sup>01</sup></li>
+    <li>About us <sup>02</sup></li>
+    <li>Services <sup>03</sup></li>
+    <li>Pages <sup>04</sup></li>
+    <li>News <sup>05</sup></li>
+    <li>Contact <sup>06</sup></li>
+    <li>call us now <br> <a style="color: rgb(210, 230, 30);">+1 714 7788</a> 
+    </li>
+</ul>
+</div>   
+</header>
+<h1>first class <br>
+ investments</h1>
+
+<h3>
+    Take your business to the next level Hub's built-in risk and  <br> profit management tools.
+</h3>
+<div class="quote">
+<button>Get a quote</button>
+<h4>call us now <br><a style="color: rgb(228, 224, 22);">+1 714 7788</a></h4>
+  </div>
+  <div class="card">
+    <div class="style">
+        <h6 style="font-size: 20px;">about us</h6>  
+        <h6 style="font-size: 50px; word-spacing: 10px;">consulting agency <br> for your business.</h6>
+        <p style="font-size: 20px;">Hub has a full range of products for personal data analysis, business consultation, and strategic partnership. Hub allows your business and technology computers to store, transmit, analyze, and manipulate big data.</p>
+       </div>
+  <div class="form">
+    <p>send a messege</p>
+    <p style="font-size: 40px; color: #161414; ">request a call back</p>
+  <input type="name" placeholder="Your name" required>  <br>
+  <input type="adress" placeholder="Email Adress" required> <br>
+  <input type="text" placeholder="How can we help you">
+  <input type="checkbox">I agree to the terms of service.</input>
+  <h5 style="border: 2px solid black; background-color: #dce00d; width: 250px; padding: 15px; border-radius: 2px; ">Get a quote</h5>
+  </div>
+</div>
+
+</body>
+</html>

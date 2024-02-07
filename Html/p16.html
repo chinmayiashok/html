@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .top{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .top img{
+            width: 60px;
+            height: 60px;
+        }
+        .top h1{
+            font-size: 45px;
+            letter-spacing: 3px;
+        }
+        .logo{
+            text-align: center;
+            width: fit-content;
+        }
+        .logo h2{
+            color: rgb(50, 148, 235);
+            letter-spacing: 5px;
+        }
+
+        /* devider  */
+        .devider{
+            min-height: 5px;
+            background-color: rgb(50, 148, 235);
+        }
+
+        /* hero  */
+        .hero{
+            padding: 20px;
+            min-height: 65vh;
+            background: linear-gradient(#4ebae9, #ffffff, #ffffff);
+        }
+        .hero p{
+            color: rgb(0, 78, 146);
+            font-size: 24px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+       .hero  button{
+            border: none;
+            border: 1px solid gray;
+            padding: 10px;
+            min-width: 250px;
+            font-size: 20px;
+        }   
+        center{
+            padding: 20px;
+            background-color: #adadad;
+        }
+
+        center button{
+            border: none;
+            padding: 10px;
+            background-color:rgb(210, 210, 29);
+            font-size: 20px;
+            color: #fff;
+            min-width: 100px;
+        }
+        footer{
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <div class="logo">
+        <div class="top">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SBI-logo.svg/2048px-SBI-logo.svg.png" alt="logo">
+          <h1>SBI</h1>
+        </div>
+        <h2>ONLINE</h2>
+      </div>
+      <div class="logo">
+        <div class="top">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SBI-logo.svg/2048px-SBI-logo.svg.png" alt="logo">
+          <h1>SBI</h1>
+        </div>
+        <h2>ONLINE</h2>
+      </div>
+   </header>
+   <div class="devider"></div>
+   <div class="hero">
+    <p>New User? Register Here/Activate (For Retail Customer's Only)</p>
+    <button>New User Registration</button>
+   </div>
+   <center>
+    <button>Next</button>
+   </center>
+   <footer>
+    <p>@State Bank of india</p>
+   </footer>
+</body>
+</html>

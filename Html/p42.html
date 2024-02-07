@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDFClogin</title>
+    <style>
+        *{
+            margin: 0%;
+            Padding:0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            background-color: rgba(22, 19, 223, 0.986);
+            display: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            background-color: rgba(136, 143, 241, 0.76);
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            }
+        input{
+            margin-bottom: 10px;
+            margin-top: 2px;
+            font-size :16px;
+            padding: 10px;
+            width:100%
+            outline : none;
+            border: none;
+            border-radius:5px;
+            border:1px solid #c9c9c9;
+
+        }
+        input:hover{
+            border: 2px solid rgb(46, 151, 69);
+        }
+        button{
+            border:none;
+            padding:15px;
+            width:100%;
+            background-color:rgb(50, 42, 165);
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>  <H2> Welcome To HDFC Bank NetBanking</H2>
+    </center>
+   
+    <form class="card">
+    <br>
+    <h3> Login to Netbanking</h3>
+    
+        
+        <label for="name"> Customer ID/User Id</label><br>
+        <input type="number" name="userid" id="name" placeholder="Enter your user id" required><br>
+    <br>
+
+        <label for="Pass"> Enter your password</label><br>
+        <input type="password" name="password" id="pass" placeholder=" Password/IPIN" required><br>
+        <br>
+        <button type="submit"> LOGIN</button>
+</form>        
+
+</body>
+</html>
